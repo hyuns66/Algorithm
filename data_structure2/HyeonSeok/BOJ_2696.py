@@ -24,12 +24,27 @@ for t in range(T):
             answer.append(middle)
             continue
         if (1 & i) == 0:    # 홀수
-            if current <=
+            if current > middle:
+                heapq.heappush(big, current)
+            else:
+                heapq.heappush(big, middle)
+                middle = current
+            temp = list()
+            s = -heapq.heappop(small)
+            b = heapq.heappop(big)
+            heapq.heappush(temp, s)
+            heapq.heappush(temp, b)
+            heapq.heappush(temp, middle)
+            heapq.heappush(small, -heapq.heappop(temp))
+            middle = heapq.heappop(temp)
+            heapq.heappush(big, heapq.heappop(temp))
+            answer.append(middle)
         else:    # 짝수
             if current <= middle:
-                heapq.heappush(small, current)
+                heapq.heappush(small,  -current)
             else:
-                heapq.heappush(big, current)
+                heapq.heappush(small, -middle)
+                middle = current
     for idx in range(len(answer)):
         if (idx % 10) == 9 or idx == len(answer) - 1:
             print(answer[idx], end = "\n")
