@@ -19,3 +19,10 @@ for i in range(0, N):
 
 for i in range(0, N):
     print(result[i])
+
+#다른 사람 코드 오... lcm이라는 함수가 있어.
+#from math import lcm
+#t = int(input())
+#for _ in range(t):
+#    a, b = map(int, input().split())
+#    print(lcm(a, b))
