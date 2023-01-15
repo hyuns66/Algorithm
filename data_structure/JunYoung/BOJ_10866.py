@@ -44,4 +44,3 @@ for i in range(0, commandNum):
 
 for i in result:
     print(i)
-    
