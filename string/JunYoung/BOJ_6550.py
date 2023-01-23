@@ -27,7 +27,7 @@ for i in result:
 f.close()
 
 """
-# 부분 문자열 (실버5)
+# 부분 문자열 (실버5) - 제출용
 
 import sys
 from collections import deque

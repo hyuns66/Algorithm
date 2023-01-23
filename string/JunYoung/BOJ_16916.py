@@ -1,4 +1,4 @@
-# 부분 문자열
+# 부분 문자열 ( 골드...3인줄 알았는데, 브론즈 2라고?) - kmp알고리즘
 import sys
 
 S = sys.stdin.readline().strip()
