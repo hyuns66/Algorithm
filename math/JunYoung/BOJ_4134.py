@@ -1,11 +1,10 @@
-# 다음 소수
+# 다음 소수 - 원래 코드 왜 안 됐는지 생각 해보기
 import math
 import sys
 
 N = int(sys.stdin.readline())
 testNum = []
 ans = []
-
 
 def isPrime(x):
     if x == 0 or x == 1:
@@ -32,6 +31,24 @@ for i in range(N):
 
 for i in ans:
     print(i)
+
+"""
+<원래 코드>
+while True:
+    for j in range(N):
+        if (num >= testNum[j]) and isPrime(num):
+            if ans[j] == 0:
+                ans[j] = num
+
+    num += 1
+    flag = True
+    for s in range(N):
+        if ans[s] == 0:
+            flag = False
+
+    if flag:
+        break
+"""
 
 """
 참고:
