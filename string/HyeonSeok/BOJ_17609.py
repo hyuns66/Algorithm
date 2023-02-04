@@ -13,13 +13,30 @@ for _ in range(T):
         else:
             if status == 0:
                 status = 1
-                if string[start] == string[end - 2]:
-                    end -= 1
-                elif string[start + 1] == string[end - 1]:
-                    start += 1
-            else:
-                status = 2
-                break
+                t_start = start + 1
+                t_end = end
+                while t_start <= t_end:
+                    if string[t_start] == string[t_end - 1]:
+                        t_start += 1
+                        t_end -= 1
+                    else:
+                        status = 0
+                        break
+                if status == 1:
+                    break
+                status = 1
+                t_start = start
+                t_end = end - 1
+                while t_start <= t_end:
+                    if string[t_start] == string[t_end - 1]:
+                        t_start += 1
+                        t_end -= 1
+                    else:
+                        status = 2
+                        break
+        if status != 0:
+            break
     answer.append(status)
 
-print(*answer)
+for a in answer:
+    print(a)
