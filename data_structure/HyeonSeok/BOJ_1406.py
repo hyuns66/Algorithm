@@ -1,5 +1,6 @@
 import sys
 
+# Linked List 클래스
 class CharTrain:
     def __init__(self, char, next = None):
         self.next = next
@@ -29,6 +30,7 @@ for char in char_set:
     target.set_prev(curser)
     curser = curser.next
 
+# 추가 삭제 이동 메서드 구현 (구현할 때 꼼꼼히 할 것)
 for _ in range(num):
     cmd = list(sys.stdin.readline().split())
     if cmd[0] == 'L':
