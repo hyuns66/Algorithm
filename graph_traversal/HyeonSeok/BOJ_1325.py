@@ -1,6 +1,7 @@
 import sys
 from collections import deque
 
+# BFS 알고리즘
 def BFS(node):
     global graph, N, m
     q = deque()
@@ -26,7 +27,7 @@ for _ in range(M):
 
 m = 0
 answer = list()
-for node in range(1, N+1):
+for node in range(1, N+1):   # 모든 노드에 대하여 BFS 수행 후 answer 업데이트
     temp = BFS(node)
     if m < temp:
         answer = [node]
