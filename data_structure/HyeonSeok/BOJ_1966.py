@@ -6,6 +6,7 @@ testcase = [list() for i in range(N)]
 data = [deque() for j in range(N)]
 mask = [deque() for k in range(N)]
 
+# 각 테스트케이스 생성
 for i in range(N):
     testcase[i] = list(map(int, sys.stdin.readline().split()))
     data[i] = deque(list(map(int, sys.stdin.readline().split())))
