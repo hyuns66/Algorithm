@@ -1,6 +1,7 @@
 import sys
 from collections import deque
 
+# 큐를 이용한 BFS (다음 위치 좌표, 벽을 부쉈는지 여부)를 큐에 삽입
 def BFS():
     global graph
     cost = 0
