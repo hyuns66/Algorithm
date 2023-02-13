@@ -8,6 +8,7 @@ answer = [1, 2, inf]
 for i in range(1, N+1):
     town[i][i] = 0
 
+# 데이터 입력받아서 town map 초기화 하기
 for i in range(M):
     a, b = map(int, sys.stdin.readline().split())
     town[a][b] = 1
