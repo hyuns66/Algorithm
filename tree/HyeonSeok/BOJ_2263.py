@@ -1,6 +1,6 @@
 import sys
 
-
+# 전위 순회
 def preorder(node):
     global tree, answer
     answer.append(node)
@@ -9,7 +9,7 @@ def preorder(node):
     if not tree[node].is_not_right():
         preorder(tree[node].right.num)
 
-
+# 트리 초기화
 def make_tree(i_start, i_end, p_start, p_end):
     global tree, post_order, in_order
     if i_start >= i_end or p_start >= p_end:
