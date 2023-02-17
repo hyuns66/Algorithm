@@ -11,7 +11,7 @@ for i in range(N):
         favorites[i][k] = (f[k], k+1)
     favorites[i].sort(key=lambda x: (x[0], x[1]), reverse=True)
 
-
+# 치킨 만족도 초기화
 for i in range(M):
     chickens.append((i+1,))
     for j in range(i+1, M):
@@ -19,7 +19,7 @@ for i in range(M):
         for k in range(j+1, M):
             chickens.append((i+1, j+1, k+1))
 
-
+# 치킨 만족도 업데이트
 for chicken in chickens:
     temp = 0
     for f in favorites:
