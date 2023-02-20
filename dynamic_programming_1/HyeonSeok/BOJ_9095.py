@@ -13,5 +13,7 @@ for _ in range(T):
             if i-j >= 0:
                 dp[i] += dp[i-j]
     answer.append(dp[-1])
+
+# 각 테스트 케이스에 대한 정답 출력
 for a in answer:
     print(a)
