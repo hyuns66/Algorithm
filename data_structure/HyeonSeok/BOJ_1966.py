@@ -12,7 +12,7 @@ for i in range(N):
     data[i] = deque(list(map(int, sys.stdin.readline().split())))
     mask[i] = deque([m for m in range(testcase[i][0])])
 
-for i in range(N):  # testcase 반복
+for i in range(N):  # testcase 반복 코드
     while True:
         cnt = 0
         for j in range(testcase[i][0]-1, -1, -1):   # 큐 뒤쪽 부터 탐색 (출력되는 부분부터 탐색)
