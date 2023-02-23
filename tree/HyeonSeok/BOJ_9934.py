@@ -1,6 +1,6 @@
 import sys
 
-
+# 출력함수
 def print_node(tree_list: list, length, r):
     if length == 1:
         rank_list[r].append(tree_list[0])
