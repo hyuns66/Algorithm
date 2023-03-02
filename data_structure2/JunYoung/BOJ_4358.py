@@ -30,3 +30,4 @@ for i in answer:
 
 f.close()
 
+#dictonary, sorted, dict.key(), dict.values(), round와 %.4f
