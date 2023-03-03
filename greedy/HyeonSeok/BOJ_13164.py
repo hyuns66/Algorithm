@@ -52,6 +52,7 @@ answer = 0
 for i in range(N-2):
     heapq.heappush(h, (children[i+1] - children[i], i, i+1))
 
+# 키차이를 이용해서 정렬 후 그리디알고리즘 적용
 for _ in range(N-K):
     data = heapq.heappop(h)
     print(data)
@@ -62,9 +63,10 @@ for _ in range(N-K):
     elif not visited[start] and not visited[end]:
         visited[start] = True
         visited[end] = True
+        answer += data[0]
     else:
         if visited[start]:
-            
+
     while pos > 0:
         pos -= 1
         if not visited[pos]:
