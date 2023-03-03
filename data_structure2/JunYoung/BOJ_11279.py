@@ -23,4 +23,5 @@ for i in answer:
 
 #힙의 개념
 #https://gmlwjd9405.github.io/2018/05/10/data-structure-heap.html
-#
+#힙 사용
+#https://www.daleseo.com/python-heapq/
