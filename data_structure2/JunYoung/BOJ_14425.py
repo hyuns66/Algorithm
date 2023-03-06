@@ -16,4 +16,4 @@ for _ in range(M):
 
 print(count)
 
-
+# 리스트에서 in 연산은 O(n)으로 매우 느리다.
