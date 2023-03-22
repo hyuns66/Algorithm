@@ -31,6 +31,6 @@ for i in range(startDay, endDay+2):
         maxSchedule = 0
         tempStart = i+1
 
-print(totalSize) 
+print(totalSize)
 
 # (일정이 이어지는 날짜 수 * 그 기간동안의 maximumSchedule) = 코팅지 크기
