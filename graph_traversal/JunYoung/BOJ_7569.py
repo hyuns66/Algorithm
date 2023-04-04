@@ -72,3 +72,7 @@ else:
         # for i in boxes:
         #     for r in i:
         #         print(r)
+
+
+# cf. set안에는 list가 못 들어간다.
+# bfs 이용
