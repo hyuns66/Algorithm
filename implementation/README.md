@@ -1,4 +1,4 @@
-# Implementation (구현)
+# Implementation (구현) 
 
 
 풀어보면 좋을 문제는 추천 문제에 체크(:heavy_check_mark:) 해놨습니다.
@@ -31,8 +31,8 @@
 | 12 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/12933" target="_blank">12933</a> | <a href="https://www.acmicpc.net/problem/12933" target="_blank">오리</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | ✔️ | |
 | 13 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1244" target="_blank">1244</a> | <a href="https://www.acmicpc.net/problem/1244" target="_blank">스위치 켜고 끄기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> |
 | 14 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/10994" target="_blank">10994</a> | <a href="https://www.acmicpc.net/problem/10994" target="_blank">별 찍기 - 19</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> | ✔️  | ✔️ |
-| 15 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/20436" target="_blank">20436</a> | <a href="https://www.acmicpc.net/problem/20436" target="_blank">ZOAC 3</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> |
-| 16 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/20291" target="_blank">20291</a> | <a href="https://www.acmicpc.net/problem/20291" target="_blank">파일 정리</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |    | ✔️ |
+| 15 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/20436" target="_blank">20436</a> | <a href="https://www.acmicpc.net/problem/20436" target="_blank">ZOAC 3</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> | ✔️ |    |
+| 16 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/20291" target="_blank">20291</a> | <a href="https://www.acmicpc.net/problem/20291" target="_blank">파일 정리</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | ✔️ | ✔️ |
 | 17 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/17413" target="_blank">17413</a> | <a href="https://www.acmicpc.net/problem/17413" target="_blank">단어 뒤집기 2</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |    | ✔️ |
 | 18 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2615" target="_blank">2615</a> | <a href="https://www.acmicpc.net/problem/2615" target="_blank">오목</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |   | X |
 | 19 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/22858" target="_blank">22858</a> | <a href="https://www.acmicpc.net/problem/22858" target="_blank">원상 복구 (small)</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | ✔️ | ✔️ |
