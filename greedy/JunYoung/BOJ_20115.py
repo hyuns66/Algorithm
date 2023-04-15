@@ -12,4 +12,4 @@ for i in range(1, N):
 
 print(maxEnergy)
 
-#시험기간..ㅜ.ㅜ
+#데베 과제 중
