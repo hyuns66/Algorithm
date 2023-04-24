@@ -12,4 +12,4 @@ for i in range(1, N):
 
 print(maxEnergy)
 
-# 마지막 시험 d-1
+# 시험 끝~
