@@ -11,3 +11,4 @@ for i in range(1, N):
     maxEnergy += energyDrink[i] / 2
 
 print(maxEnergy)
+
