@@ -15,4 +15,4 @@ for length in range(1,len(timeCost)+1):
         sum += timeCost[i]
         #print(str(timeCost[i])+"더해짐")
 
-print(sum)
+print(sum) 
