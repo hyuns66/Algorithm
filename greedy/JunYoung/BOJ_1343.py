@@ -1,4 +1,5 @@
 # 폴리오미노
+# 실버 5인데 꽤 어려웠던 문제 -> 더 쉬운 풀이가 있나?
 
 import sys
 
@@ -49,4 +50,4 @@ else:
             print(answer[c], end='')
             c += 1
         else:
-            print(".",end='')
+            print(".", end='')
