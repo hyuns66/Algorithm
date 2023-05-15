@@ -47,5 +47,5 @@ for i in math:
 
 print(num.pop())
 
-# 'str' object does not support item assignment
+# 'str' object does not support item assignmentㅇ
 # 문자열은 불변(immutable)한 객체로, 한 번 생성되면 수정할 수 없습니다.
