@@ -1,5 +1,5 @@
 # 세로읽기
-
+ 
 import sys
 
 board = []
