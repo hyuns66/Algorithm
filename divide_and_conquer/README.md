@@ -12,7 +12,7 @@
 [백준 문제집](https://www.acmicpc.net/workbook/view/7275)
 |          순번          |        추천 문제         |        문제 번호         |        문제 이름         |         난이도          |  준영 | 현석|
 | :-----: | :-----: | :-----: | :-----: | :-----: |:-----: | :-----: |
-| 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2630" target="_blank">2630</a> | <a href="https://www.acmicpc.net/problem/2630" target="_blank">색종이 만들기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |  | |
+| 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2630" target="_blank">2630</a> | <a href="https://www.acmicpc.net/problem/2630" target="_blank">색종이 만들기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | ✔️ | |
 | 01 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/17829" target="_blank">17829</a> | <a href="https://www.acmicpc.net/problem/17829" target="_blank">222-풀링</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> |  | |
 | 02 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/18222" target="_blank">18222</a> | <a href="https://www.acmicpc.net/problem/18222" target="_blank">투에-모스 문자열</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> |  | |
 | 03 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2447" target="_blank">2447</a> | <a href="https://www.acmicpc.net/problem/2447" target="_blank">별 찍기 - 10</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |  | |
