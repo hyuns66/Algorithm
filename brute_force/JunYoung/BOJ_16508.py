@@ -6,10 +6,10 @@ import itertools
 T = sys.stdin.readline().strip()
 N = int(sys.stdin.readline())
 price = []
-book = {}
+book = []
 
 for i in range(N):
-    book[i] = []
+    book.append([])
 
 for i in range(N):
     P, name = map(str, sys.stdin.readline().split())
@@ -34,17 +34,17 @@ for i in range(len(T)):
 
 #print(temp)
 
-if flag == False:
+if flag == False: # 1차 탈락
     print(-1)
 else:
     combinations = list(itertools.product(*temp))
-
+    #print(combinations)
     answer = []
     for i in combinations:
-        tempBook = {}
+        tempBook = []
 
-        for a in range(N):
-            tempBook[a] = []
+        for a in range(N): # N은 책 제목 길이
+            tempBook.append([])
 
         for a in range(N):
             b = book[a]
@@ -73,11 +73,19 @@ else:
     # print(combinations)
     # print(answer)
 
-    answer.sort()
-    print(answer[0])
+    if len(answer)==0:
+        print(-1)
+    else:
+        min = sys.maxsize
+        for i in range(len(answer)):
+            if answer[i]<min:
+                min = answer[i]
+        print(min)
 
 # AAA
 # 3
 # 10000 BCD
 # 20000 AAC
 # 50000 DDD
+
+# 58% 까지 가고 메모리 오류 난다. => 비트마스킹??
