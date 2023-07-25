@@ -14,7 +14,7 @@
 [백준 문제집](https://www.acmicpc.net/workbook/view/6832)
 |          순번          |        추천 문제         |        문제 번호         |        문제 이름         |         난이도          | 준영 | 현석 |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-| 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/16234" target="_blank">16234</a> | <a href="https://www.acmicpc.net/problem/16234" target="_blank">인구 이동</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |
+| 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/16234" target="_blank">16234</a> | <a href="https://www.acmicpc.net/problem/16234" target="_blank">인구 이동</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |   | ✔ |
 | 01 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/21610" target="_blank">21610</a> | <a href="https://www.acmicpc.net/problem/21610" target="_blank">마법사 상어와 비바라기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |
 | 02 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/17144" target="_blank">17144</a> | <a href="https://www.acmicpc.net/problem/17144" target="_blank">미세먼지 안녕!</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |
 | 03 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/20056" target="_blank">20056</a> | <a href="https://www.acmicpc.net/problem/20056" target="_blank">마법사 상어와 파이어볼</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |                      |
