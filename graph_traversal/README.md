@@ -16,7 +16,7 @@ BFS, DFS 유형을 다양하게 골랐습니다.
 [백준 문제집](https://www.acmicpc.net/workbook/view/6853)
 |          순번          |        추천 문제         |        문제 번호         |        문제 이름         |         난이도          |  준영 | 현석 |
 | :-----: | :-----: | :-----: | :-----: | :-----: |  :-----: | :-----: | 
-| 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2606" target="_blank">2606</a> | <a href="https://www.acmicpc.net/problem/2606" target="_blank">바이러스</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |
+| 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2606" target="_blank">2606</a> | <a href="https://www.acmicpc.net/problem/2606" target="_blank">바이러스</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | ✔  | |
 | 01 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1260" target="_blank">1260</a> | <a href="https://www.acmicpc.net/problem/1260" target="_blank">DFS와 BFS</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> |   | ✔ |
 | 02 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/11725" target="_blank">11725</a> | <a href="https://www.acmicpc.net/problem/11725" target="_blank">트리의 부모 찾기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> |
 | 03 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1325" target="_blank">1325</a> | <a href="https://www.acmicpc.net/problem/1325" target="_blank">효율적인 해킹</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |   | ✔ |
