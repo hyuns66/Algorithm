@@ -69,10 +69,10 @@ for y in range(1, N+1):
             cur_milk = graph[y][x]
             for i in range(3):
                 if cur_milk == (i+1) % 3:
-                    dp[y][x][cur_milk] = max(dp[y][x][cur_milk], dp[tar_y][tar_x][i] + 1)
+                    dp[y][x][i] = max(dp[y][x][i], dp[tar_y][tar_x][2-i] + 1)
                 else:
-                    dp[y][x][cur_milk] = max(dp[tar_y][tar_x][i], dp[y][x][cur_milk])
-for i in range(N+1):
-    for j in range(N+1):
-        print(dp[i][j][0])
-print(dp[N][N][0], dp[N][N][1], dp[N][N][2])
+                    dp[y][x][i] = max(dp[tar_y][tar_x][i], dp[y][x][i])
+# for i in range(N+1):
+#     for j in range(N+1):
+#         print(dp[i][j][0])
+print(max(dp[N][N][0], dp[N][N][1], dp[N][N][2]))
