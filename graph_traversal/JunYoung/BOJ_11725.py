@@ -1,6 +1,7 @@
 # 트리의 부모 찾기
 
 import sys
+from collections import deque
 
 N = int(sys.stdin.readline())
 
@@ -13,23 +14,22 @@ for i in range(N - 1):
 
 visited = [0 for i in range(N)]
 root = [0 for i in range(N)]
+queue = deque()
+queue.append(1)
 
-
-# print(node)
-
-def dfs(i):
-    visited[i - 1] = 1
-    for n in node[i - 1]:  # 갈 수 있는 곳 중에
-        if visited[n - 1] == 0:
-            root[n - 1] = i  # 부모노드 입력
-            dfs(n)  # 안 가본 곳이면 가보기
-
-
-dfs(1)
+while queue:
+    n = queue.popleft()
+    if visited[n-1] == 0: # not visited
+        visited[n-1] = 1
+        for m in node[n-1]:
+            if visited[m-1] == 0:
+                root[m-1] = n
+                queue.append(m)
 
 # print(root)
 
 for i in range(1, len(root)):
     print(root[i])
 
-# 런타임 에러 (RecursionError)
+# dfs로 푸니까 런타임 에러 (RecursionError) :  재귀 호출의 최대 깊이를 초과
+# bfs로 바꾸고, 재귀-재귀 안하게 바꿔서 해결함
