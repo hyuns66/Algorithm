@@ -29,6 +29,8 @@ answer = sys.maxsize
 for d in skip_dp:
     answer = min(answer, d[-1])
 answer = min(no_skip_dp[-1], answer)
+# 처음에 스킵없는 dp로 구해서 그중 가장 많은 value를 skip으로 대체하려 시도.
+# 근데 skip으로 대체한 돌 중 하나가 최단경로에 영향을 미치는 경우에 대응이 안됨
 # max_idx = 0
 # max_value = 0
 # for i in range(N-3):
