@@ -17,7 +17,7 @@
 [백준 문제집](https://www.acmicpc.net/workbook/view/7021)
 |          순번          |        추천 문제         |        문제 번호         |        문제 이름         |         난이도          | 준영 | 현석 |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-| 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/15724" target="_blank">15724</a> | <a href="https://www.acmicpc.net/problem/15724" target="_blank">주지수</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |                      |
+| 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/15724" target="_blank">15724</a> | <a href="https://www.acmicpc.net/problem/15724" target="_blank">주지수</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |   | ✔ |
 | 01 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/9084" target="_blank">9084</a> | <a href="https://www.acmicpc.net/problem/9084" target="_blank">동전</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |                      |
 | 02 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/12865" target="_blank">12865</a> | <a href="https://www.acmicpc.net/problem/12865" target="_blank">평범한 배낭</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |                      |
 | 03 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/9251" target="_blank">9251</a> | <a href="https://www.acmicpc.net/problem/9251" target="_blank">LCS</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |
