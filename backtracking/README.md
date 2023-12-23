@@ -11,8 +11,8 @@
 ***❗️❗️꼭 문제를 순서대로 안풀어도 됩니다.❗️❗️***
 
 [백준 문제집](https://www.acmicpc.net/workbook/view/7135)
-|          순번          |        추천 문제         |        문제 번호         |        문제 이름         |         난이도          |
-| :-----: | :-----: | :-----: | :-----: | :-----: |
+|          순번          |        추천 문제         |        문제 번호         |        문제 이름         |         난이도          | 준영  |  현석  |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
 | 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/15649" target="_blank">15649</a> | <a href="https://www.acmicpc.net/problem/15649" target="_blank">N과 M (1)</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |
 | 01 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/15650" target="_blank">15650</a> | <a href="https://www.acmicpc.net/problem/15650" target="_blank">N과 M (2)</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |
 | 02 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/15651" target="_blank">15651</a> | <a href="https://www.acmicpc.net/problem/15651" target="_blank">N과 M (3)</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |
@@ -31,7 +31,7 @@
 | 15 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/14712" target="_blank">14712</a> | <a href="https://www.acmicpc.net/problem/14712" target="_blank">넴모넴모 (Easy)</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |
 | 16 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/14888" target="_blank">14888</a> | <a href="https://www.acmicpc.net/problem/14888" target="_blank">연산자 끼워넣기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |                      
 | 17 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1174" target="_blank">1174</a> | <a href="https://www.acmicpc.net/problem/1174" target="_blank">줄어드는 수</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |                      
-| 18 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/18430" target="_blank">18430</a> | <a href="https://www.acmicpc.net/problem/18430" target="_blank">무기 공학</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | <a href="./../solution/backtracking/18430">바로가기</a> |
+| 18 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/18430" target="_blank">18430</a> | <a href="https://www.acmicpc.net/problem/18430" target="_blank">무기 공학</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |
 | 19 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/9663" target="_blank">9663</a> | <a href="https://www.acmicpc.net/problem/9663" target="_blank">N-Queen</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |
 | 20 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/6443" target="_blank">6443</a> | <a href="https://www.acmicpc.net/problem/6443" target="_blank">애너그램</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |                   
 | 21 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2580" target="_blank">2580</a> | <a href="https://www.acmicpc.net/problem/2580" target="_blank">스도쿠</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |
