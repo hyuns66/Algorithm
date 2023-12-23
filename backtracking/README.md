@@ -13,8 +13,8 @@
 [백준 문제집](https://www.acmicpc.net/workbook/view/7135)
 |          순번          |        추천 문제         |        문제 번호         |        문제 이름         |         난이도          | 준영  |  현석  |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-| 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/15649" target="_blank">15649</a> | <a href="https://www.acmicpc.net/problem/15649" target="_blank">N과 M (1)</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |
-| 01 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/15650" target="_blank">15650</a> | <a href="https://www.acmicpc.net/problem/15650" target="_blank">N과 M (2)</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |
+| 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/15649" target="_blank">15649</a> | <a href="https://www.acmicpc.net/problem/15649" target="_blank">N과 M (1)</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |  | ✔ |
+| 01 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/15650" target="_blank">15650</a> | <a href="https://www.acmicpc.net/problem/15650" target="_blank">N과 M (2)</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |  | ✔ |
 | 02 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/15651" target="_blank">15651</a> | <a href="https://www.acmicpc.net/problem/15651" target="_blank">N과 M (3)</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |
 | 03 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/15652" target="_blank">15652</a> | <a href="https://www.acmicpc.net/problem/15652" target="_blank">N과 M (4)</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |
 | 04 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/15654" target="_blank">15654</a> | <a href="https://www.acmicpc.net/problem/15654" target="_blank">N과 M (5)</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |
