@@ -1,5 +1,6 @@
 import sys
 
+# y, x 좌표로부터 해당 영역에 색종이를 둘 수 있는지 판단 (1만 덮어야 하므로)
 def canCover(y, x, width):
     global graph
     for i in range(width):
@@ -12,12 +13,8 @@ def backTracking(depth):
     global graph, squares, answer
     y = depth // 10
     x = depth % 10
-    if depth == 100:
+    if depth == 100:    # 맨 끝까지 도착하면 answer 업데이트 (백트래킹 과정에서 불필요한 경우는 쳐냈기 때문에 검증하지 않아도 됨)
         temp = 0
-        for y in range(10):
-            for x in range(10):
-                if graph[y][x] == 1:
-                    return
         for s in squares:
             temp += (5 - s[1])
         answer = min(answer, temp)
@@ -28,9 +25,9 @@ def backTracking(depth):
                 break
             if s[1] == 0:   # 해당 색종이 이미 다썼으면 continue
                 continue
-            if not canCover(y, x, s[0]):
-                continue
-            for i in range(s[0]):
+            if not canCover(y, x, s[0]):    # 현재 색종로로 덮을 수 없는 경우 더 큰색종도도 용용지물이므로 break
+                break
+            for i in range(s[0]):       # 색종이로 덮고 backtracking
                 for j in range(s[0]):
                     graph[y+i][x+j] = 0
             s[1] -= 1
