@@ -1,0 +1,1 @@
+{"name":"Local: BOJ_20440","url":"d:\\Algorithms_Challenge\\prefix_sum\\HyeonSeok\\BOJ_20440.py","tests":[{"id":1711604840484,"input":"3\n2 16\n4 6\n6 10","output":"2\n4 10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Algorithms_Challenge\\prefix_sum\\HyeonSeok\\BOJ_20440.py","group":"local","local":true}
