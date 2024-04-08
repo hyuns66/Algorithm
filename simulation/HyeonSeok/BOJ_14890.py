@@ -28,16 +28,16 @@ for tc in test_case:
                 height = tc[position]
             else:
                 break
-        if height > tc[position]:
+        if height > tc[position]:       # 1칸 내려왔을 경우
             can_go = True
-            for i in range(position, position+L):
+            for i in range(position, position+L):   # 이후의 L개 칸 확인해서 계단 가능여부 체크
                 if i >= N or tc[i] != tc[position]:
                     can_go = False
             if can_go:
                 height = tc[position]
                 for i in range(position, position+L):
                     tc[i] = tc[position-1]
-                position += (L-1)
+                position += (L-1)       # 계단 설치한 만큼 뒤로 이동
             else:
                 break
             
