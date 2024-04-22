@@ -6,7 +6,7 @@ n = int(sys.stdin.readline())
 
 # n을 2와 1로 나눌 수 있다.
 
-dp = [0 for _ in range(n+1)]
+dp = [0 for _ in range(max(3, n+1))]
 dp[1] = 1
 dp[2] = 3
 
@@ -18,3 +18,5 @@ for i in range(3, n+1):
     dp[i] = (dp[i-1] + dp[i-2] * 2) % 10007
 
 print(dp[n])
+
+# n이 선언해둔 배열보다 작게 들어오는 경우 예외처리 잊지 말기!!
