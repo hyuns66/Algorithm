@@ -3,7 +3,7 @@
 import sys
 import heapq
 
-N = int(sys.stdin.readline())
+N, M, B = map(int, sys.stdin.readline().split())
 heap = []
 for i in range(N):
     line = list(map(int, sys.stdin.readline().split()))
