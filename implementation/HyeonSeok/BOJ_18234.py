@@ -11,11 +11,3 @@ while carrots:
     answer += w-p*day
     day += 1
 print(answer)
-# for i in range(N-1):
-#     m = 0
-#     for c in carrots:
-#         c[0] -= c[1]
-#         m = max(m, c[0])
-#     carrots.sort()
-#     answer += carrots.pop()[0]
-# print(answer)
