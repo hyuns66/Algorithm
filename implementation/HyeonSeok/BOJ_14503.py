@@ -1,18 +1,19 @@
 # 0 : 노청소 1 : 벽 2: 청소
+# 현재 위치 청소
 def clean(y, x, graph):
     if graph[y][x] == 0:
         graph[y][x] = 2
 
+# 주변에 청소되지 않은 빈 타일이 있으면 True
 def can_clean(y, x, graph):
     for dy, dx in [[1, 0], [0, 1], [-1, 0], [0, -1]]:
         py = y+dy
         px = x+dx
-        # if py < 0 or py >= len(graph) or px < 0 or px >= len(graph):
-        #     continue
         if graph[py][px] == 0:
             return True
     return False
 
+# 뒤 칸에 벽이 없어서 후진가능하면 True
 def can_goback(y, x, dir, graph):
     py = y-dir[0]
     px = x-dir[1]
@@ -28,9 +29,10 @@ def forward_clean(y, x, dir, graph):
     dir[1] = temp
     dy = y+dir[0]
     dx = x+dir[1]
+    # 해당 방향에 빈칸이 있면 전진 
     if graph[dy][dx] == 0:
         return dy, dx
-    else:
+    else:   # 없으면 보류
         return y, x
     
 N, M = map(int, input().split())
