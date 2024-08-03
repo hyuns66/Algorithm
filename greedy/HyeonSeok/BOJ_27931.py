@@ -23,6 +23,7 @@ for i in range(len(evens)-1):
 if min_even == 2*(10**9) + 1:
     min_even = -1
 
+# 모든 숫자가 홀이거나 짝이면 홀수인 거리가 나올 수 없음
 if len(odds) == 0 or len(evens) == 0:
     min_odd = -1
 else:
