@@ -20,4 +20,9 @@ for cost, nodes in info:
         if node == u or node == v:
             root[idx] = root_node
     answer += cost
+cache = root[0]
+for r in root:
+    if r != cache:
+        answer = -1
+        break
 print(answer)
