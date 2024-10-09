@@ -1,7 +1,8 @@
+package dynamic_programming_1.HyeonSeok;
 import java.io.*;
 import java.util.*;
 
-public class 정수_삼각형 {
+public class BOJ_1932 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         
