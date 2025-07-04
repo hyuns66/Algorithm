@@ -10,10 +10,10 @@
 ***❗️❗️꼭 문제를 순서대로 안풀어도 됩니다.❗️❗️***
 
 [백준 문제집](https://www.acmicpc.net/workbook/view/7175)
-|          순번          |        추천 문제         |        문제 번호         |        문제 이름         |         난이도          | 
-| :-----: | :-----: | :-----: | :-----: | :-----: |
-| 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1197" target="_blank">1197</a> | <a href="https://www.acmicpc.net/problem/1197" target="_blank">최소 스패닝 트리</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | <a href="./../solution/minimum_spanning_tree/1197">바로가기</a> |
-| 01 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1922" target="_blank">1922</a> | <a href="https://www.acmicpc.net/problem/1922" target="_blank">네트워크 연결</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | <a href="./../solution/minimum_spanning_tree/1922">바로가기</a> |
+|          순번          |        추천 문제         |        문제 번호         |        문제 이름         |         난이도          | 현석 | 준영|
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1197" target="_blank">1197</a> | <a href="https://www.acmicpc.net/problem/1197" target="_blank">최소 스패닝 트리</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | <a href="./../solution/minimum_spanning_tree/1197">바로가기</a> | | |
+| 01 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1922" target="_blank">1922</a> | <a href="https://www.acmicpc.net/problem/1922" target="_blank">네트워크 연결</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | <a href="./../solution/minimum_spanning_tree/1922">바로가기</a> | |  :heavy_check_mark:  |
 | 02 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1647" target="_blank">1647</a> | <a href="https://www.acmicpc.net/problem/1647" target="_blank">도시 분할 계획</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | <a href="./../solution/minimum_spanning_tree/1647">바로가기</a> |
 | 03 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/16398" target="_blank">16398</a> | <a href="https://www.acmicpc.net/problem/16398" target="_blank">행성 연결</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | <a href="./../solution/minimum_spanning_tree/16398">바로가기</a> |
 | 04 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/21924" target="_blank">21924</a> | <a href="https://www.acmicpc.net/problem/21924" target="_blank">도시 건설</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | <a href="./../solution/minimum_spanning_tree/21924">바로가기</a> |
