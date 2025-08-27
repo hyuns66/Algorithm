@@ -27,6 +27,6 @@ while h:
         diff = c - max_cost
         if diff < min_diff:
             total_cost = answer + diff
-        break
+        break 
 
     print(total_cost)
