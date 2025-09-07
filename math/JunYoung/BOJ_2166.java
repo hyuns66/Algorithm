@@ -44,4 +44,5 @@ public class BOJ_2166 {
         System.out.printf("%.1f\n", Math.abs(x-y)/2.0);
         // Math.round로 하니까 지수 표현법으로 된다.
     }
+    
 }
