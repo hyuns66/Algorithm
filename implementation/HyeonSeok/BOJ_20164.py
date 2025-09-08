@@ -1,36 +1,64 @@
+from collections import deque
 import sys
 
-def update_cnt(cnt, data_set):
-    for d in data_set:
-        if int(d) & 1 == 1:
-            cnt += 1
-    return cnt
+def split_N(N : list):
+    size = len(N)
+    result = list()
+    if size == 1:
+        return [[N[0]]]
+    if size == 2:
+        return [[[N[0]], [N[1]]]]
+    for i in range(1, size):
+        for j in range(i+1, size):
+            result.append([N[:i], N[i:j], N[j:]])
+    return result
 
-def operate_num(cnt, *args):
-    global a_max, a_min
-    temp = 0
-    c = cnt
-    if len(args) == 1 and len(args[0]) == 1:
-        a_max = max(a_max, c)
-        a_min = min(a_min, c)
+def make_number(num_list):
+    size = len(num_list) - 1
+    result = 0
+    for n in num_list:
+        n = int(n)
+        n *= 10 ** size
+        result += n
+        size -= 1
+    return result
+
+def calc_sum(split_nums):
+    result = 0
+    for nums in split_nums:
+        num = make_number(nums)
+        result += num
+    return result
+
+def number_to_list(num):
+    result_list = [int(digit) for digit in str(num)]
+    return result_list
+
+def count_odds(numbers):
+    result = 0
+    for n in numbers:
+        if int(n) & 1:
+            result += 1
+    return result
+
+def back_tracking(number_list, answer):
+    global answer_min, answer_max
+    answer += count_odds(number_list)
+    if len(number_list) == 1:
+        answer_min = min(answer_min, answer)
+        answer_max = max(answer_max, answer)
         return
-    for a in args:
-        num = int(''.join(a))
-        temp += num
-    temp_list = list(str(temp))
-    c = update_cnt(c, temp_list)
-    if len(temp_list) == 1:
-        operate_num(c, temp_list[0])
-    elif len(temp_list) == 2:
-        operate_num(c, temp_list[0], temp_list[1])
-    else:
-        for i in range(1, len(temp_list)):
-            for j in range(i+1, len(temp_list)):
-                operate_num(c, temp_list[:i], temp_list[i:j], temp_list[j:])
+    split_numbers = split_N(number_list)
+    for splits in split_numbers:
+        new_number = 0
+        for split in splits:
+            new_number += make_number(split)
+        back_tracking(number_to_list(new_number), answer)
+    
 
-N = list(sys.stdin.readline().rstrip())
-cnt = 0
-a_min = sys.maxsize
-a_max = 0
-operate_num(cnt, N)
-print(a_min, a_max)
+N = list(map(int, list(input())))
+answer_min = sys.maxsize
+answer_max = 0
+
+back_tracking(N, 0)
+print(answer_min, answer_max)
