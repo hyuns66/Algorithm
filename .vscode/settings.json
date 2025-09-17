@@ -52,6 +52,7 @@
     "vector": "cpp",
     "algorithm": "cpp",
     "set": "cpp",
-    "map": "cpp"
+    "map": "cpp",
+    "__config": "cpp"
   }
 }
