@@ -51,6 +51,7 @@
 | 20 | Minimum Spanning Tree(MST) | 최소 스패닝 트리 | [바로가기](./minimum_spanning_tree) | 08 | 24 |
 | 21 | Trie | 트라이 | [바로가기](./trie) | 05 | 09 |
 | 22 | Dynamic Programming On Trees | 트리디피 | [바로가기](./dynamic_programming_on_trees) | 04 | 08 |
+| 23 | Union Find | 유니온 파인드 | [바로가기](./union_find) | 00 | 00 |
 
 
 참고: https://github.com/tony9402/baekjoon
