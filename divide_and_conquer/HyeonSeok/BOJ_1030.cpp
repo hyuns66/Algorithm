@@ -9,8 +9,6 @@ int s, N, K, R1, R2, C1, C2;
 vector<vector<int>> graph;
 
 bool validate(int sy, int sx, int ey, int ex) {
-    // cout << sy << " " << ey << endl;
-    // cout << sx << " " << ex << endl;
     if (ey < R1 || sy > R2 || ex < C1 || sx > C2) return false;
     return true;
 }

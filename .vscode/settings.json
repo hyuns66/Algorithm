@@ -53,6 +53,7 @@
     "algorithm": "cpp",
     "set": "cpp",
     "map": "cpp",
-    "__config": "cpp"
+    "__config": "cpp",
+    "__tree": "cpp"
   }
 }
