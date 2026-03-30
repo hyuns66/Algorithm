@@ -16,8 +16,8 @@
 ***❗️❗️꼭 문제를 순서대로 안풀어도 됩니다.❗️❗️***
 
 [백준 문제집](https://www.acmicpc.net/workbook/view/6784)
-|          순번          |        추천 문제         |        문제 번호         |        문제 이름         |         난이도          | 
-| :-----: | :-----: | :-----: | :-----: | :-----: |
+|          순번          |        추천 문제         |        문제 번호         |        문제 이름         |         난이도          | 준영| 현석 |
+| :-----: | :-----: | :-----: | :-----: | :-----: |:-----: | :-----: |
 | 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1717" target="_blank">1717</a> | <a href="https://www.acmicpc.net/problem/1717" target="_blank">집합의 표현</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | <a href="./../solution/disjoint_set/1717">바로가기</a> |
 | 01 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1976" target="_blank">1976</a> | <a href="https://www.acmicpc.net/problem/1976" target="_blank">여행 가자</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | <a href="./../solution/disjoint_set/1976">바로가기</a> |
 | 02 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/16562" target="_blank">16562</a> | <a href="https://www.acmicpc.net/problem/16562" target="_blank">친구비</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | <a href="./../solution/disjoint_set/16562">바로가기</a> |
@@ -37,4 +37,4 @@
 | 16 |                      | <a href="https://www.acmicpc.net/problem/17090" target="_blank">17090</a> | <a href="https://www.acmicpc.net/problem/17090" target="_blank">미로 탈출하기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> |                      |
 | 17 |                      | <a href="https://www.acmicpc.net/problem/16724" target="_blank">16724</a> | <a href="https://www.acmicpc.net/problem/16724" target="_blank">피리 부는 사나이</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> |                      |
 | 18 |                      | <a href="https://www.acmicpc.net/problem/14595" target="_blank">14595</a> | <a href="https://www.acmicpc.net/problem/14595" target="_blank">동방 프로젝트 (Large)</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> |                      |
-| 19 |                      | <a href="https://www.acmicpc.net/problem/17398" target="_blank">17398</a> | <a href="https://www.acmicpc.net/problem/17398" target="_blank">통신망 분할</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/> |                      |
+| 19 |                      | <a href="https://www.acmicpc.net/problem/17398" target="_blank">17398</a> | <a href="https://www.acmicpc.net/problem/17398" target="_blank">통신망 분할</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/> |        ✔        |  | 
