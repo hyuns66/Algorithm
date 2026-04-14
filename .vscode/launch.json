@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BOJ_12912",
+            "request": "launch",
+            "mainClass": "BOJ_12912",
+            "projectName": "Algorithm_1fe01375"
+        },
+        {
+            "type": "java",
             "name": "정수_삼각형",
             "request": "launch",
             "mainClass": "정수_삼각형",
