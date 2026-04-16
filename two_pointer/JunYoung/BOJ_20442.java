@@ -7,6 +7,9 @@ import java.io.InputStreamReader;
  *
  * 1. R로만 이루어진 문자열은 ㅋㅋ루ㅋㅋ 문자열이다. (단, 빈 문자열은 ㅋㅋ루ㅋㅋ이 아니다.)
  * 2. ㅋㅋ루ㅋㅋ 문자열 양 끝에 K를 하나씩 붙인 문자열은 ㅋㅋ루ㅋㅋ 문자열이다.
+ * 
+ * [누적합, 투포인터]
+ * [예외체크: KK사이에 R이 없는 경우는 정답 계산하면 안됨]
  */
 public class BOJ_20442 {
     public static void main(String[] args) throws IOException {
@@ -41,7 +44,11 @@ public class BOJ_20442 {
             // 둘 다 k이라면
             kSum++;
             int RSum = prefixSum[right]-prefixSum[left];
-            answer = Math.max(answer, 2*kSum+RSum);
+            if(RSum !=0){
+                answer = Math.max(answer, 2*kSum+RSum);
+            }
+
+            // 범위 조여오기
             left++;
             right--;
         }
