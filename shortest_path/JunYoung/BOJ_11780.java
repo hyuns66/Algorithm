@@ -20,6 +20,9 @@ import java.util.StringTokenizer;
  *
  * ----------------------------------------------------------------------------------------------------------
  * [플로이드 워셜, 경로 복원]
+ * - 경로 추적까지 들어가면 어렵다.
+ * - dist[i][k]+ dist[k][j] 할때 오버플로우 조심하기!!
+ * - dist값이 0인거랑 INF인거 둘다 고려하기
  *
  */
 public class BOJ_11780 {
@@ -60,6 +63,8 @@ public class BOJ_11780 {
         for(int k=1; k<=cityNum; k++){
             for(int i=1; i<=cityNum; i++){
                 for(int j=1; j<=cityNum; j++){
+                    if (dist[i][k] == maxCost || dist[k][j] == maxCost) continue; // 오버플로우방지
+
                     if(dist[i][k]+dist[k][j]<dist[i][j]){ // 거쳐가는게 그냥 가는 것보다 작으면
                         dist[i][j] = dist[i][k]+dist[k][j];
                         next[i][j] = next[i][k];
@@ -72,7 +77,8 @@ public class BOJ_11780 {
         StringBuilder sb = new StringBuilder();
         for(int i=1; i<=cityNum; i++){
             for(int j=1; j<=cityNum; j++){
-                sb.append(dist[i][j]+" ");
+                if (dist[i][j] == maxCost) sb.append("0 ");
+                else sb.append(dist[i][j]).append(" ");
             }
             sb.append("\n");
         }
